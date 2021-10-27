@@ -100,13 +100,13 @@ nav ul{
     cursor: pointer;
 }
 
-/* .line{
-    background-color: black;
+.line{
+    background: linear-gradient(rgb(155, 13, 155), rgb(91, 10, 167));
     width: 0;
     height: 3px;
     position: absolute;
     transition: width 1s ease-in-out;
-} */
+}
 
 /* Responsiveness */
 
@@ -124,5 +124,8 @@ nav ul{
         display: grid;
         grid-template-rows: repeat(3, 20vw);
         grid-template-columns: repeat(3, 20vw);
+    }
+    .line{
+        display: none;
     }
 }
